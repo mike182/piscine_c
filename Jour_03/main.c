@@ -16,7 +16,7 @@ int main() {
     my_aff_chiffre();
 #endif
 
-#ifdef MY_IS_NEG // Ex 04
+#ifdef MY_ISNEG // Ex 04
     my_isneg(-1);
     my_isneg(0);
     my_isneg(1);
