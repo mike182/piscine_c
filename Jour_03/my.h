@@ -7,5 +7,6 @@ int my_aff_alpha(); // Ex 01
 int my_aff_revalpha(); // Ex 02
 int my_aff_chiffre(); // Ex 03
 int my_isneg(int n); // Ex 04
+int my_aff_comb(); // Ex 05
 
 #endif // __MY_H__
