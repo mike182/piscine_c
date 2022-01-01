@@ -1,9 +1,10 @@
 piscine_c
 =========
 
-# code block
+```bash
 mkdir build
 cd build
 cmake ../
 cmake --build .
 ./executable
+```
