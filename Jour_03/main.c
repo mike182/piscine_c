@@ -43,7 +43,7 @@ int main() {
     my_put_nbr(-214783648);
 #endif
 
-#ifdef MY_AFF_COMBN // Ex 05
+#ifdef MY_AFF_COMBN // Ex 08
     my_aff_combn(1);
     printf("\n");
     my_aff_combn(2);
