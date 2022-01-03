@@ -18,5 +18,7 @@ int my_swap(int *a, int *b); // Ex 01
 int my_putstr(char *str); // Ex 02
 int my_strlen(char *str); // Ex 03
 char *my_evil_str(char *str); // Ex 03 bis
+int my_getnbr(char *str); // Ex 04
+void my_sort_int_tab(int *tab, int size); // Ex 05
 
 #endif // __MY_H__
