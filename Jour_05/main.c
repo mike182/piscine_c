@@ -31,5 +31,13 @@ int main() {
     printf("%i", my_power_rec(23, 4));
 #endif
 
+#ifdef MY_8R1 // Ex 05
+    my_8r1();
+#endif
+
+#ifdef MY_8R2 // Ex 06
+    my_8r2();
+#endif
+
     return 0;
 }
