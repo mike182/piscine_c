@@ -28,8 +28,8 @@ int my_power_it(int nb, int power); // Ex 03
 int my_power_rec(int nb, int power); // Ex 04
 int my_8r1(); // Ex 05
 int my_8r2(); // Ex 06
-/* int my_square_root(int nb); // Ex 07 */
-/* int my_is_prime(int nb); // Ex 08 */
-/* int my_find_prime_sup(int nb); // Ex 09 */
+int my_square_root(int nb); // Ex 07
+int my_is_prime(int nb); // Ex 08
+int my_find_prime_sup(int nb); // Ex 09
 
 #endif // __MY_H__

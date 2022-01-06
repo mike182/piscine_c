@@ -39,5 +39,42 @@ int main() {
     my_8r2();
 #endif
 
+#ifdef MY_SQUARE_ROOT // Ex 07
+    printf("%i\n", my_square_root(0));
+    printf("%i\n", my_square_root(1));
+    printf("%i\n", my_square_root(2));
+    printf("%i\n", my_square_root(9));
+    printf("%i\n", my_square_root(100));
+    printf("%i", my_square_root(16000));
+#endif
+
+#ifdef MY_IS_PRIME // Ex 08
+    printf("%i\n", my_is_prime(0));
+    printf("%i\n", my_is_prime(1));
+    printf("%i\n", my_is_prime(2));
+    printf("%i\n", my_is_prime(3));
+    printf("%i\n", my_is_prime(5));
+    printf("%i\n", my_is_prime(7));
+    printf("%i\n", my_is_prime(8));
+    printf("%i\n", my_is_prime(17));
+    printf("%i\n", my_is_prime(53));
+    printf("%i", my_is_prime(97));
+#endif
+
+#ifdef MY_FIND_PRIME_SUP // Ex 09
+    printf("%i\n", my_find_prime_sup(1));
+    printf("%i\n", my_find_prime_sup(2));
+    printf("%i\n", my_find_prime_sup(3));
+    printf("%i\n", my_find_prime_sup(5));
+    printf("%i\n", my_find_prime_sup(7));
+    printf("%i\n", my_find_prime_sup(15));
+    printf("%i\n", my_find_prime_sup(24));
+    printf("%i\n", my_find_prime_sup(58));
+    printf("%i\n", my_find_prime_sup(76));
+    printf("%i\n", my_find_prime_sup(83));
+    printf("%i\n", my_find_prime_sup(95));
+    printf("%i", my_find_prime_sup(43));
+#endif
+
     return 0;
 }
