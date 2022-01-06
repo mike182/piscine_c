@@ -7,5 +7,5 @@ int my_power_rec(int nb, int power) {
         return 1;
     if (power == 1)
         return nb;
-    return nb * my_power_rec(nb, power-1);
+    return nb * my_power_rec(nb, power - 1);
 }
