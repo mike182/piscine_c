@@ -9,19 +9,13 @@ int is_printable(char c) {
 }
 
 void show_addr(int needle) {
-    int tmp = needle;
-    int n = 0;
-    int i = 0;
+    unsigned int n = 0x10000000;
 
-    while (tmp != 0) {
-        tmp /= BASE;
-        n++;
-    }
-    while (i < ADDR_SIZE - n) {
+    while (n > (unsigned int)needle) {
         my_putchar('0');
-        i++;
+        n >>= 4;
     }
-    if (needle != 0)
+    if (needle)
         my_putnbr_base(needle, "0123456789abcdef");
     return ;
 }
