@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.10)
 
-project (Jour07)
+project (Jour08)
 
 set (CMAKE_C_COMPILER clang)
 set (CMAKE_C_FLAGS "-W -Wall -Werror -Wextra")
