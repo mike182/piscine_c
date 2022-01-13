@@ -34,7 +34,7 @@ char **my_str_to_wordtab(char *str) {
             str++;
         if (*str == '\0')
             break;
-        s[i++] = my_strndup(str, word_len(str) + 1);
+        s[i++] = my_strndup(str, word_len(str));
         while (is_alnum(*str))
             str++;
     }

@@ -32,7 +32,7 @@ int main(void) {
 #ifdef MY_STR_TO_WORDTAB // Ex 04
     char **s;
 
-    s = my_str_to_wordtab("alors tu va bien? 123fag");
+    s = my_str_to_wordtab("alors_tu va bien? 123fag");
     for (int i = 0; s[i] ; i++) {
         my_putstr(s[i]);
         my_putstr("\n");
